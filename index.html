@@ -5,259 +5,277 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Drilling9</title>
+
+    <!-- Bootstrap Styles -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
     <link rel="stylesheet" href="./style.css">
      
 </head>
+<body>
 
-<html>
+    <header>
 
-    <body>
+        <nav class="navbar navbar-expand-lg navbar-light      bg-warning">
 
-        
-        <header>
+            <div class="container-fluid">
 
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">e-commerce</a>
 
-                <div class="container-fluid">
-
-                    <a class="navbar-brand" href="#">e-commerce</a>
-
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    
-                        <span class="navbar-toggler-icon"></span>
-
-                    </button>
-
-                    <div class="collapse navbar-collapse" id="navbarNav">
-
-                        <ul class="navbar-nav">
-
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                    Productos
-                                </a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Sobre nosotros</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contacto</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                            </li>
-
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 
+                    <span class="navbar-toggler-icon"></span>
 
-                        </ul>
+                </button>
 
-                    </div>
+                <div class="collapse navbar-collapse" id="navbarNav">
 
-                   <div>
-                        <a class="navbar-brand" href="#">
-                        <img src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24">
-                      </a>
-                    </div>
-                
+                    <ul class="navbar-nav">
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                Productos
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sobre nosotros</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+            
+
+                    </ul>
+
                 </div>
 
-            </nav>
+                <div>
+                    <a class="navbar-brand" href="#">
+                    <img src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24">
+                    </a>
+                </div>
+            
+            </div>
 
-        </header>
+        </nav>
+
+    </header>
 
 
-        <main>
+    <main>
 
-            <div class="container">
+        <div class="container-fluid d-flex justify-content-center overflow-hidden row gx-5 gap-3 pt-5 ms-2">
 
-                <div class="card" style="width: 18rem;">
+            <div class="card" style="width: 18rem;height: 75%">
+                  
+                <div style="width: 100% ;height: 100%; margin-bottom: 25%; margin-top: 19%;">
 
                     <img src="./assets/img/casco.jpg" class="card-img-top" alt="casco">
 
-                    <div class="card-body">
+                </div>
 
-                        <h5 class="card-title">Casco</h5>
-                        <p class="card-text">Casco especial para ciclistas de ciudad.</p>
+                <div class="card-body">
 
-                    </div>
-
-                    <ul class="list-group list-group-flush">
-
-                        <li class="list-group-item">3 unidades disponibles</li>
-                        <li class="list-group-item">$ 30.00 </li>
-                        
-
-                    </ul>
-
-                    <div class="card-body">
-
-                        <a href="#" class="card-link">Comprar ahora</a>
-                        <a href="#" class="card-link">Agregar a Carrito</a>
-
-                    </div>
+                    <h5 class="card-title">Casco</h5>
+                    <p class="card-text">Casco especial para ciclistas de ciudad.</p>
 
                 </div>
 
-                <div class="card" style="width: 18rem;">
+                <ul class="list-group list-group-flush">
 
-                    <img src="./assets/img/guantes.jpg" class="card-img-top" alt="guantes">
+                    <li class="list-group-item">3 unidades disponibles</li>
+                    <li class="list-group-item">$ 30.00 </li>
+                    
 
-                    <div class="card-body">
+                </ul>
 
-                        <h5 class="card-title">Guantes</h5>
-                        <p class="card-text">Guantes con relleno de silicona</p>
+                <div class="card-body">
 
-                    </div>
-
-                    <ul class="list-group list-group-flush">
-
-                        <li class="list-group-item">10 unidades disponibles</li>
-                        <li class="list-group-item">$ 9.50 </li>
-                        
-
-                    </ul>
-
-                    <div class="card-body">
-
-                        <a href="#" class="card-link">Comprar ahora</a>
-                        <a href="#" class="card-link">Agregar a Carrito</a>
-                        
-                    </div>
+                    <a href="#" class="card-link">Comprar ahora</a>
+                    <a href="#" class="card-link">Agregar a Carrito</a>
 
                 </div>
 
-                <div class="card" style="width: 18rem;">
+            </div>
+
+            <div class="card" style="width: 18rem;height: 75%;">
+
+                <div style="width: 90% ;height: 100%; margin-bottom: 5%; margin-top: 5%;">
+                <img src="./assets/img/guantes.jpg" class="card-img-top" alt="guantes">
+                </div>
+
+            
+                <div class="card-body">
+
+                    <h5 class="card-title">Guantes</h5>
+                    <p class="card-text">Guantes con relleno de silicona</p>
+
+                </div>
+
+                <ul class="list-group list-group-flush">
+
+                    <li class="list-group-item">10 unidades disponibles</li>
+                    <li class="list-group-item">$ 9.50 </li>
+                    
+
+                </ul>
+
+                <div class="card-body">
+
+                    <a href="#" class="card-link">Comprar ahora</a>
+                    <a href="#" class="card-link">Agregar a Carrito</a>
+                    
+                </div>
+
+            </div>
+
+            <div class="card" style="width: 18rem;height: 75%;">
+
+                <div style="width: 80% ;height: 100%; margin-bottom: 10%; margin-top: 10%; margin-left: 5%;">
 
                     <img src="./assets/img/luces.jpg" class="card-img-top" alt="luces led">
+                </div>
 
-                    <div class="card-body">
+                <div class="card-body">
 
-                        <h5 class="card-title">Luces Led</h5>
-                        <p class="card-text">Luces rojas de alta intensidad</p>
+                    <h5 class="card-title">Luces Led</h5>
+                    <p class="card-text">Luces rojas de alta intensidad</p>
 
-                    </div>
+                </div>
 
-                    <ul class="list-group list-group-flush">
+                <ul class="list-group list-group-flush">
 
-                        <li class="list-group-item">8 unidades disponibles</li>
-                        <li class="list-group-item">$ 12.00</li>
+                    <li class="list-group-item">8 unidades disponibles</li>
+                    <li class="list-group-item">$ 12.00</li>
+                
+
+                </ul>
+
+                <div class="card-body">
+
+                    <a href="#" class="card-link">Comprar ahora</a>
+                    <a href="#" class="card-link">Agregar a Carrito</a>
                     
-
-                    </ul>
-
-                    <div class="card-body">
-
-                        <a href="#" class="card-link">Comprar ahora</a>
-                        <a href="#" class="card-link">Agregar a Carrito</a>
-                        
-                    </div>
-
                 </div>
 
             </div>
 
-            <div class="container">
+        </div>
 
-                <div class="card" style="width: 18rem;">
+        <div class="container-fluid d-flex justify-content-center overflow-hidden row gx-5 gap-3 pt-5 pb-5 ms-2">
 
+            <div class="card" style="width: 18rem;height: 75%;">
+
+                <div style="width: 95%; height: 100%;
+                margin-top: 5%;">
                     <img src="./assets/img/botella.jpg" class="card-img-top" alt="botellas de agua">
+                </div>
 
-                    <div class="card-body">
+                <div class="card-body">
 
-                        <h5 class="card-title">Botella</h5>
-                        <p class="card-text">Botella de 500 ml, especial para llevar agua a tus aventuras</p>
-
-                    </div>
-
-                    <ul class="list-group list-group-flush">
-
-                        <li class="list-group-item">18  unidades disponibles</li>
-                        <li class="list-group-item"> $ 3.00 </li>
-                    
-
-                    </ul>
-
-                    <div class="card-body">
-
-                        <a href="#" class="card-link">Comprar ahora</a>
-                        <a href="#" class="card-link">Agregar a Carrito</a>
-
-                    </div>
+                    <h5 class="card-title">Botella</h5>
+                    <p class="card-text">Botella de 500 ml, especial para llevar agua a tus aventuras</p>
 
                 </div>
 
-                <div class="card" style="width: 18rem;">
+                <ul class="list-group list-group-flush">
 
-                    <img src="./assets/img/camara aro.jpg" class="card-img-top" alt="camara aro 27.5">
+                    <li class="list-group-item">18  unidades disponibles</li>
+                    <li class="list-group-item"> $ 3.00 </li>
+                
 
-                    <div class="card-body">
+                </ul>
 
-                        <h5 class="card-title">Cámara aro 27.5</h5>
-                        <p class="card-text">Cámara para bicicleta aro 27.5 con válvula francesa</p>
+                <div class="card-body">
 
-                    </div>
-
-                    <ul class="list-group list-group-flush">
-
-                        <li class="list-group-item">64 unidades disponibles</li>
-                        <li class="list-group-item">$ 4.500 </li>
-
-                    </ul>
-
-                    <div class="card-body">
-
-                        <a href="#" class="card-link">Comprar ahora</a>
-                        <a href="#" class="card-link">Agregar a Carrito</a>
-                        
-                    </div>
-
-                </div>
-
-                <div class="card" style="width: 18rem;">
-
-                    <img src="./assets/img/chaleco.jpg" class="card-img-top" alt="...">
-
-                    <div class="card-body">
-
-                        <h5 class="card-title">Chaleco Reflectante</h5>
-                        <p class="card-text">Chaleco reflactante talla única adulto</p>
-
-                    </div>
-
-                    <ul class="list-group list-group-flush">
-
-                        <li class="list-group-item">8 unidades disponibles</li>
-                        <li class="list-group-item">$ 5.00</li>
-                       
-
-                    </ul>
-
-                    <div class="card-body">
-
-                        <a href="#" class="card-link">Comprar ahora</a>
-                        <a href="#" class="card-link">Agregar a Carrito</a>
-                        
-                    </div>
+                    <a href="#" class="card-link">Comprar ahora</a>
+                    <a href="#" class="card-link">Agregar a Carrito</a>
 
                 </div>
 
             </div>
 
+            <div class="card" style="width: 18rem;height: 75%;">
 
 
-        </main>
+                <div style="width: 82%;height: 100%;
+                margin-left: 5%;">
+                    <img src="./assets/img/camara aro.jpg" class="card-img-top" alt="camara aro 27.5">
+                </div>
 
-        <footer>
-            <p>Todos los Derechos Reservados</p>
-        </footer>
+                <div class="card-body">
 
-    </body>
+                    <h5 class="card-title">Cámara aro 27.5</h5>
+                    <p class="card-text">Cámara para bicicleta aro 27.5 con válvula francesa</p>
+
+                </div>
+
+                <ul class="list-group list-group-flush">
+
+                    <li class="list-group-item">64 unidades disponibles</li>
+                    <li class="list-group-item">$ 4.500 </li>
+
+                </ul>
+
+                <div class="card-body">
+
+                    <a href="#" class="card-link">Comprar ahora</a>
+                    <a href="#" class="card-link">Agregar a Carrito</a>
+                    
+                </div>
+
+            </div>
+
+            <div class="card" style="width: 18rem;height: 75%;">
+
+                <div style="width: 100% ;height: 100%;
+                margin-top: 15%; margin-bottom: 15%;">
+                    <img  src="./assets/img/chaleco.jpg" class="card-img-top" alt="Chaleco">
+                </div>
+
+                <div class="card-body">
+
+                    <h5 class="card-title">Chaleco Reflectante</h5>
+                    <p class="card-text">Chaleco reflactante talla única adulto</p>
+
+                </div>
+
+                <ul class="list-group list-group-flush">
+
+                    <li class="list-group-item">8 unidades disponibles</li>
+                    <li class="list-group-item">$ 5.00</li>
+                    
+
+                </ul>
+
+                <div class="card-body">
+
+                    <a href="#" class="card-link">Comprar ahora</a>
+                    <a href="#" class="card-link">Agregar a Carrito</a>
+                    
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+    </main>
+
+    <footer>
+        <p>Todos los Derechos Reservados</p>
+    </footer>
+
+    <!-- Boostrasp JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
 
 </html>
